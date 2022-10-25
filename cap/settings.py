@@ -32,12 +32,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'drf_yasg',
 
     # external apps
     'django',
     'rest_framework',
     'djoser',
-    'drf_yasg',
     'colorfield',
     'corsheaders',
     'rest_framework_simplejwt',
