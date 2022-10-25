@@ -199,6 +199,8 @@ class Order(models.Model):
         verbose_name=_('Дата изменения статуса'),
         auto_now=True)
 
+    address = models.CharField(max_length=125)
+
     def __str__(self):
         return f'{self.stock}{self.user}'
 
